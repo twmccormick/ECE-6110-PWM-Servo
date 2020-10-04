@@ -1,2 +1,7 @@
 # ECE 6110 PWM Servo 
- This is an extenstion of the first assignment. This new project creates a PWM signal and connects it to an external pin. A small servo motor is then attached to the board, and this PWM signal simply tells the servo to move back and forth.
+ 
+ ECE 6110 - Tyler McCormick - Extentsion 
+
+ This code simply creates a PWM signal with a period of 20ms and simply changes the duty cycle from 5% to 10% back and forth with a small delay in bettwen each change.
+ 
+ This generated PWM signal is then attached to one of the pins of the development board, which is then connected to a small servo as the signal wire.
